@@ -41,7 +41,7 @@ Template Name: member
     <div id="wrap">
       <?php get_header(); ?>
       <!--<div id="member_midashi">
-        <img style="float:left" src="./img/member_smile.png">
+        <img style="float:left" src="<?php bloginfo('template_url'); ?>/img/member_smile.png">
         <div id="member_midashi_text">
           集団的知性は、細菌、動物、人間、コンピュータなど様々な集団の、意思決定の過程で発生する。集団的知性の研究は、社会学、計算機科学、集団行動の研究[1]などに属する。
         </div>
@@ -51,7 +51,7 @@ Template Name: member
         
           <!--------------------------Profile Start -------------------------->
           <div class="profile">
-            <img class="small_image" src="./img/member_sum/reikun_sum.gif">
+            <img class="small_image" src="<?php bloginfo('template_url'); ?>/img/member_sum/reikun_sum.gif">
             <a class="profile_name" name="れいくん
             <div class='explain'>
               <h1>アーティスト / グラフィックデザイナー</h1>
@@ -63,7 +63,7 @@ Template Name: member
               <a  target='_blank' href='http://rei-nakanishi.tumblr.com/'>[Tumblr]</a>
               </div>
             </div>
-            " data-lightbox="roadtrip" href='./img/member_full/reikun.gif' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
+            " data-lightbox="roadtrip" href='<?php bloginfo('template_url'); ?>/img/member_full/reikun.gif' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
             <div>
               <p class="full_name">れいくん</p>
             </div>
@@ -72,14 +72,14 @@ Template Name: member
 
           <!--------------------------Profile Start -------------------------->
           <div class="profile">
-            <img class="small_image" src="./img/member_sum/serina.jpg">
+            <img class="small_image" src="<?php bloginfo('template_url'); ?>/img/member_sum/serina.jpg">
             <a class="profile_name" name="serina
             <div class='explain'>
               <h1>大学生</h1>
               <div class='explain_text'>20歳。B型。さそり座。</br>
               </div>
             </div>
-            " data-lightbox="roadtrip" href='./img/member_full/serina.jpg' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
+            " data-lightbox="roadtrip" href='<?php bloginfo('template_url'); ?>/img/member_full/serina.jpg' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
             <div>
               <p class="full_name">serina</p>
             </div>
@@ -778,9 +778,9 @@ See below for details.</br>
   	}
     </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="js/scroll_top.js"></script>
-    <script type="text/javascript"src="js/lightbox.js"></script>
+    <script defer src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scroll_top.js"></script>
+    <script type="text/javascript"src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
       $('.flexslider').flexslider({
