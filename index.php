@@ -13,8 +13,7 @@
   <body>
     <div id="wrap">
       <div id="ios_title">渋家のウェブ</div>
-
-      <?php require $theme_root.'header.php' ?>
+      <?php get_header(); ?>
             <div id="slide">
         <div class="flexslider">
           <ul class="slides">
@@ -79,7 +78,7 @@
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
             <img  style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/whats_shibuhouse.png">
           <div class="midashi_text">
-            <?php require $theme_root.'text/what.php' ?>
+            <?php require 'wp-content/themes/shibuhouse/text/what.php' ?>
           </div>
           <a style="margin:0 auto; display: block;" href="./about.php" id="midashi_about"></a>
           <!--<img style="margin:0 auto; display: block;" src="./img/hatena_midashi.png">-->
@@ -91,7 +90,7 @@
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
             <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/bio_midashi.png">
             <div class="midashi_text">
-            <?php require $theme_root.'/text/bio.php' ?>
+            <?php require 'wp-content/themes/shibuhouse/text/bio.php' ?>
             </div>
             <a href="./bio.php#ac_art" id="bio_art"></a>
             <a href="./bio.php#ac_media" id="bio_event"></a>
@@ -106,7 +105,7 @@
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
             <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/member_midashi.png">
             <div class="midashi_text">
-            <?php require $theme_root.'/text/member.php' ?>
+            <?php require 'wp-content/themes/shibuhouse/text/member.php' ?>
             </div>        
 
             <a href="./member.php" id="picture_member"></a>  
@@ -119,7 +118,7 @@
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
             <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/information.png">
             <div class="midashi_text">
-            <?php require $theme_root.'/text/information.php' ?>  
+            <?php require 'wp-content/themes/shibuhouse/text/information.php' ?>  
             </div>          
             <img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_mail.png">
    <!--         <p style="margin: 0 auto;
@@ -142,7 +141,7 @@ shibuhouseinfo@gmail.com</div>
         </div><!-- #information -->
       </div><!-- #content -->
     </div><!-- #wrap -->
-    <?php require $theme_root.'/footer.php' ?>
+    <?php get_footer(); ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scroll_top.js"></script>

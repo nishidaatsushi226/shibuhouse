@@ -7,18 +7,6 @@ Template Name: about
 
 <!DOCTYPE html>
 <html>
-<!--
-  <head>
-    <title>渋家 || SHIBUHOUSE</title>
-    <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?E2mGUC7TkZ8%3D" charset="utf-8"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link href='./css/reset.css' rel='stylesheet' type='text/css'>
-    <link href='./css/global.css' rel='stylesheet' type='text/css'>
-    <link href='./css/flexslider.css' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/modernizr.js"></script>
-  </head>
--->
   <head>
     <title>渋家 || SHIBUHOUSE</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -31,7 +19,7 @@ Template Name: about
 
   <body>
     <div id="wrap">
-      <?php require $theme_root.'header.php' ?>
+      <?php get_header(); ?>
         <div id="content">
 
         <div id="bio" class="midashi">
@@ -83,10 +71,10 @@ Template Name: about
         </div><!-- #information -->
       </div><!-- #content -->
     </div><!-- #wrap -->
-    <?php require $theme_root.'footer.php' ?>
+    <?php get_footer(); ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="js/scroll_top.js"></script>
+    <script defer src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scroll_top.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
       $('.flexslider').flexslider({

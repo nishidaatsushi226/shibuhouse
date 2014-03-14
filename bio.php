@@ -20,26 +20,26 @@ Template Name: bio
 
   <body>
     <div id="wrap" style="background-color: rgb(231,231,231);">
-      <?php require $theme_root.'header.php' ?>
+      <?php get_header(); ?>
       <div id="biography">
         <div id="inner_bio">
           <div id="cv">
             <div id="ac_art" style=""></div>
             <img src="<?php bloginfo('template_url'); ?>/img/bio/bio_art.png">
             <div id="art" class="bio_content">
-              <?php require $theme_root.'text/bio/art.php' ?>
+              <?php require 'wp-content/themes/shibuhouse/text/bio/art.php' ?>
             </div>
 
             <div id="ac_event" style=""></div>
             <img src="<?php bloginfo('template_url'); ?>/img/bio/bio_event.png">
             <div id="event" class="bio_content">
-              <?php require $theme_root.'text/bio/event.php' ?>
+              <?php require 'wp-content/themes/shibuhouse/text/bio/event.php' ?>
             </div>
 
             <div id="ac_media" style=""></div>
             <img src="<?php bloginfo('template_url'); ?>/img/bio/bio_media.png">
             <div id="media" class="bio_content">
-              <?php require $theme_root.'text/bio/media.php' ?>
+              <?php require 'wp-content/themes/shibuhouse/text/bio/media.php' ?>
             </div>
           </div>
           
@@ -62,7 +62,7 @@ Template Name: bio
         </div>
       </div>
     </div><!-- #wrap -->
-    <?php require $theme_root.'footer.php' ?>
+    <?php get_footer(); ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scroll_top.js"></script>

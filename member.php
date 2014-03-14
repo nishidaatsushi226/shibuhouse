@@ -39,7 +39,7 @@ Template Name: member
 
   <body>
     <div id="wrap">
-      <?php require $theme_root.'header.php' ?>
+      <?php get_header(); ?>
       <!--<div id="member_midashi">
         <img style="float:left" src="./img/member_smile.png">
         <div id="member_midashi_text">
@@ -759,7 +759,7 @@ See below for details.</br>
         </div>
       </div>
     </div><!-- #wrap -->
-    <?php require $theme_root.'footer.php' ?>
+    <?php get_footer(); ?>
     <script type="text/javascript">
     if (navigator.userAgent.indexOf('iPhone') != -1) {
   	} else {
