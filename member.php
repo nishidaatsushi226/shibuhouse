@@ -5,15 +5,15 @@ Template Name: member
 ?>
 
 <!DOCTYPE html>
+<?php $theme_root = get_theme_root() . '/shibuhouse_new_web/'; ?>
 <html>
+<!--
   <head>
     <title>渋家 || SHIBUHOUSE</title>
-    <!-- typesqure 用タグ -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>      
     <link href='./css/reset.css' rel='stylesheet' type='text/css'>  
     <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?E2mGUC7TkZ8%3D" charset="utf-8"></script>
-    <!-- スライドショー -->
     <link href='./css/flexslider.css' rel='stylesheet' type='text/css'>
     <link href="css/lightbox.css" rel="stylesheet" />
     <link href='./css/popup_member.css' rel='stylesheet' type='text/css'>
@@ -26,9 +26,20 @@ Template Name: member
     }
     </script>
   </head>
+-->
+
+  <head>
+    <title>渋家 || SHIBUHOUSE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="<?php bloginfo('stylesheet_url') ?>" rel='stylesheet' type='text/css'>  
+    <!-- javascript -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.js"></script>
+  </head>
+
   <body>
     <div id="wrap">
-      <?php require './header.php' ?>
+      <?php require $theme_root.'header.php' ?>
       <!--<div id="member_midashi">
         <img style="float:left" src="./img/member_smile.png">
         <div id="member_midashi_text">
@@ -748,7 +759,7 @@ See below for details.</br>
         </div>
       </div>
     </div><!-- #wrap -->
-    <?php require './footer.php' ?>
+    <?php require $theme_root.'footer.php' ?>
     <script type="text/javascript">
     if (navigator.userAgent.indexOf('iPhone') != -1) {
   	} else {

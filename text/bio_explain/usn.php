@@ -1,10 +1,11 @@
 
 <!-- ここから -->
+<?php $imgpath = getcwd()."../../../" ?>
 <?php 
 #ポップアップ後の画像の位置
-$full_image = './img/exhibition_full/usn/usn_002.jpg';
+$full_image = "wp-content/themes/shibuhouse_new_web/img/exhibition_full/usn/usn_002.jpg";
 #ポップアップ前の画像の位置
-$sum_image = './img/exhibition_sum/usn/usn_001.jpg';
+$sum_image = "wp-content/themes/shibuhouse_new_web/img/exhibition_sum/usn/usn_001.jpg";
 #ポップアップ後のコメントの内容(空でも良い)
 $comment = 'ultra super new!!';
 ?>

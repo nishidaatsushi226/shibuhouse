@@ -5,44 +5,41 @@ Template Name: bio
 ?>
 
 <!DOCTYPE html>
+<?php $theme_root = get_theme_root() . '/shibuhouse_new_web/'; ?>
 <html>
   <head>
     <title>渋家 || SHIBUHOUSE</title>
-    <!-- typesqure 逕ｨ繧ｿ繧ｰ -->
-    <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?E2mGUC7TkZ8%3D" charset="utf-8"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link href='./css/reset.css' rel='stylesheet' type='text/css'>
-    <link href='./css/global.css' rel='stylesheet' type='text/css'>
-    <!-- 繧ｹ繝ｩ繧､繝峨す繝ｧ繝ｼ -->
-    <link href='./css/flexslider.css' rel='stylesheet' type='text/css'>
-    <link href="css/lightbox.css" rel="stylesheet" />
-    <script type="text/javascript" src="js/modernizr.js"></script>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="<?php bloginfo('stylesheet_url') ?>" rel='stylesheet' type='text/css'>  
+    <!-- javascript -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.js"></script>
   </head>
+
+
   <body>
     <div id="wrap" style="background-color: rgb(231,231,231);">
-      <?php require './header.php' ?>
+      <?php require $theme_root.'header.php' ?>
       <div id="biography">
-        <!--<img style="margin-bottom:45px; margin-top:45px;" src="./img/bio/bio_midashi.png">-->
         <div id="inner_bio">
           <div id="cv">
             <div id="ac_art" style=""></div>
-            <img src="./img/bio/bio_art.png">
+            <img src="<?php bloginfo('template_url'); ?>/img/bio/bio_art.png">
             <div id="art" class="bio_content">
-              <?php require './text/bio/art.php' ?>
+              <?php require $theme_root.'text/bio/art.php' ?>
             </div>
 
             <div id="ac_event" style=""></div>
-            <img src="./img/bio/bio_event.png">
+            <img src="<?php bloginfo('template_url'); ?>/img/bio/bio_event.png">
             <div id="event" class="bio_content">
-              <?php require './text/bio/event.php' ?>
+              <?php require $theme_root.'text/bio/event.php' ?>
             </div>
 
             <div id="ac_media" style=""></div>
-            <img src="./img/bio/bio_media.png">
+            <img src="<?php bloginfo('template_url'); ?>/img/bio/bio_media.png">
             <div id="media" class="bio_content">
-              <?php require './text/bio/media.php' ?>
+              <?php require $theme_root.'text/bio/media.php' ?>
             </div>
           </div>
           
@@ -65,11 +62,11 @@ Template Name: bio
         </div>
       </div>
     </div><!-- #wrap -->
-    <?php require './footer.php' ?>
+    <?php require $theme_root.'footer.php' ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="js/scroll_top.js"></script>
-    <script type="text/javascript"src="js/lightbox.js"></script>
+    <script defer src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scroll_top.js"></script>
+    <script type="text/javascript"src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
       $('.flexslider').flexslider({
@@ -106,6 +103,6 @@ Template Name: bio
   			$('#ex_title').html(text);
 		});
     </script>
-    <script type="text/javasciprt" src="./js/parseuri.js"></script>
+    <script type="text/javasciprt" src="<?php bloginfo('template_url'); ?>/js/parseuri.js"></script>
   </body>
 </html>
