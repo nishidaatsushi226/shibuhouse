@@ -1,0 +1,10 @@
+@charset "UTF-8";/*
+    Theme Name: shibuhouse
+    Theme URI: http://duds-factory/blog/wp-content/themes/自分でつけたテーマフォルダネーム
+    Description: This is my theme.
+    */
+    /* CSS Document */
+@import url("css/reset.css");
+@import url("css/flexslider.css");
+@import url("css/lightbox.css");
+@import url("css/global.css");
