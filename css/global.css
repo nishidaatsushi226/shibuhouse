@@ -60,7 +60,8 @@ a {
 
 #text_information {
 	text-align: center;
-	background-color:rgb(50, 65, 108);
+	background-color:rgb(100,100,100);
+/*	background-color:rgb(50, 65, 108);*/
 	padding: 8px;
 	color: #FFFFFF;
 	min-width: 1240px;
@@ -158,9 +159,35 @@ a {
 	font-size: 12px;
 }
 
-.topics_new {
-    	position: relative;
-	background-color:rgb(73, 73, 73);
+.topics_art {
+	position: relative;
+	background-color:#DC143C;
+	list-style: none;
+	margin: 10px;
+	color: #FFFFFF;
+	border-radius: 5px;        /* CSS3草案 */  
+	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+	-moz-border-radius: 5px;   /* Firefox用 */ 
+	line-height: 32px;
+	font-size: 12px;
+}
+
+.topics_event {
+	position: relative;
+	background-color:#483D8B;
+	list-style: none;
+	margin: 10px;
+	color: #FFFFFF;
+	border-radius: 5px;        /* CSS3草案 */  
+	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+	-moz-border-radius: 5px;   /* Firefox用 */ 
+	line-height: 32px;
+	font-size: 12px;
+}
+
+.topics_media {
+	position: relative;
+	background-color:#556B2F;
 	list-style: none;
 	margin: 10px;
 	color: #FFFFFF;
@@ -172,10 +199,9 @@ a {
 }
 
 
-
 #hot_topics_text {
 	margin-left:-10px;
-	overflow-y: scroll;
+/*	overflow-y: scroll;*/
 	height: 300px;
 	border-radius: 5px;        /* CSS3草案 */
 	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
@@ -654,7 +680,7 @@ max-height: 400px;
 }
 
 #hot_topics_text > ul > li:hover {
-   background-color:rgb(69, 93, 173);
+   background-color:rgb(100, 100, 100);
 }
 
 
