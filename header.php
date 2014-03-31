@@ -32,11 +32,6 @@
                 <a href="."><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a></br>
               </td>
             </tr>
-            <tr>
-              <td>
-                <p id="text_logo">シブハウスオフィシャルホームページ</p>
-              </td>
-            </tr>
           </table>  
         </div><!-- #logo -->
           <div id="contact">
