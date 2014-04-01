@@ -75,9 +75,9 @@ a {
 	float: left;
 	display: inline;
 	position: fixed;
-	margin: 30px;
+	margin: 10px 0px 0px 0px;
 	z-index: 2;
-	left: 20px;
+	left: 10px;
 }
 #nav {
 	clear: both;
