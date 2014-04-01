@@ -32,11 +32,6 @@
                 <a href="."><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a></br>
               </td>
             </tr>
-            <tr>
-              <td>
-                <p id="text_logo">シブハウスオフィシャルホームページ</p>
-              </td>
-            </tr>
           </table>  
         </div><!-- #logo -->
           <div id="contact">
@@ -50,9 +45,6 @@
                 <td style="color:#FFFFFF; font-family: monospace;">
 <div class="fb-like" data-href="http://shibuhouse.com" data-width="200" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 		</td>
-              </tr>
-              <tr>
-                <td colspan="3" style="padding: 2px 5px 6px 14px; color:#FFFFFF; font-family: monospace;">shibuhouseinfo@gmail.com<td>
               </tr>
             </table>
           </div>
