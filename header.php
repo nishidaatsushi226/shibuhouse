@@ -51,12 +51,6 @@
       <div id="header">
         <div id="nav">
           <table id="nav_table">
-            <tr align="center" style="" id="nav_table_tr">
-              <td class="nav_image" id="td_about" style="padding:0 50px;"><a href="./about" id="nav_about"></a></td>
-              <td class="nav_image" id="td_bio" style="padding:0 50px;"><a href="./bio" id="nav_bio"></a></td>
-              <td class="undisplay" class="nav_image" style="padding:0 50px; opacity:0.2;"><img src="<?php bloginfo('template_url'); ?>/img/life.png"></td>
-              <td class="nav_image" id="id_member" style="padding:0 50px;"><a href="./member" id="nav_member"></a></td>
-            </tr>
             <tr>
               <td style="padding:0 50px;">アバウト</td>
               <td style="padding:0 30px;">バイオグラフィー</td>
