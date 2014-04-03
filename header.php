@@ -52,7 +52,7 @@
         <div id="nav">
           <table id="nav_table">
             <tr>
-              <td style="padding:0 50px;">アバウト</td>
+              <td style="padding:0 50px;"><a href="about.php"><img src="アバウト</a></td>
               <td style="padding:0 30px;">バイオグラフィー</td>
               <td style="padding:0 58px;">ライフ</td>
               <td style="padding:0 53px;">メンバー</td>
