@@ -45,6 +45,7 @@ Template Name: member
               <div class='explain_text'>
 	        <?php echo $member_text ?>
               </div>
+		<?php echo $URL get_post_meta($post -> ID, 'URL', true); ?>
 	    </div>
             </div>
             " data-lightbox="roadtrip" href='<?php echo $member_full ?>' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
