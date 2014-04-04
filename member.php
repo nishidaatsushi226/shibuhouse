@@ -51,7 +51,7 @@ Template Name: member
 		$post_id = $post->ID;
 		$link = get_post_meta($post_id,'link',true);
 		?>
- 		<a href='<?php echo link_url ?>'><?php echo link_title; ?></a>
+ 		<a href='<?php echo $link_url ?>'><?php echo $link_title; ?></a>
 
 
 		</div>
