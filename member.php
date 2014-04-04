@@ -28,8 +28,7 @@ Template Name: member
           <?php $member_name = get_post_meta($post -> ID, 'member_name', true); ?>
           <?php $member_pos = get_post_meta($post -> ID, 'member_pos', true); ?>
           <?php $member_text = get_post_meta($post -> ID, 'member_text', true); ?>
-          <?php
-          $member_fulls = get_post_meta($post->ID, 'member_full', false);
+          <?php $member_fulls = get_post_meta($post->ID, 'member_full', false);
           foreach($member_fulls as $file){
 	    $member_full = wp_get_attachment_url($file);
           } ?>
@@ -38,6 +37,8 @@ Template Name: member
           foreach($member_sums as $file){
 	    $member_sum = wp_get_attachment_url($file);
           } ?>
+          <a href="<?php echo post_custom('Url'); ?>"><img alt="" src="http://www.*******.com/wp-content/uploads/aaa.jpg" 
+          width="240" height="54" /></a>
           <div class="profile">
             <img class="small_image" src="<?php echo $member_sum ?>">
             <a class="profile_name" name="<?php echo $member_name ?>
