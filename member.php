@@ -32,7 +32,7 @@ Template Name: member
           <?php $link_title = get_post_meta($post ->ID, 'link_title', true); ?>
           <?php $link_url = get_post_meta($post ->ID, 'link_url', true); ?>
           
-          foreach($member_fulls as $file){
+          <?php foreach($member_fulls as $file){
 	    $member_full = wp_get_attachment_url($file);
           } ?>
           <?php
