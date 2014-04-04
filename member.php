@@ -50,9 +50,9 @@ Template Name: member
 		?>
  
 		<?php if($link) : ?>
-		<a href="<?php echo $link; ?>"><?php the_title(); ?></a>
+		<a href='<?php echo $link; ?>'><?php the_title(); ?></a>
 		<?php else : ?>
-		<a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+		<a href='<?php the_permalink() ?>'><?php the_title(); ?></a>
 		<?php endif; ?>
 
 		</div>
