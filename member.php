@@ -44,7 +44,6 @@ Template Name: member
               <h1><?php echo $member_pos ?></h1>
               <div class='explain_text'>
 	        <?php echo $member_text ?>
-              </div>
 	    </div>
             </div>
             " data-lightbox="roadtrip" href='<?php echo $member_full ?>' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
