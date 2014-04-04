@@ -49,11 +49,6 @@ Template Name: member
 		$link = get_post_meta($post_id,'link',true);
 		?>
  
-		<?php if($link) : ?>
-		<a href='<?php echo $link; ?>'><?php the_title(); ?></a>
-		<?php else : ?>
-		<a href='<?php the_title(); ?>'><?php the_title(); ?></a>
-		<?php endif; ?>
 
 		</div>
 	    </div>
