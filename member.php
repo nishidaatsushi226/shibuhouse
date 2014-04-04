@@ -28,7 +28,10 @@ Template Name: member
           <?php $member_name = get_post_meta($post -> ID, 'member_name', true); ?>
           <?php $member_pos = get_post_meta($post -> ID, 'member_pos', true); ?>
           <?php $member_text = get_post_meta($post -> ID, 'member_text', true); ?>
-          <?php $member_fulls = get_post_meta($post->ID, 'member_full', false);
+          <?php $member_fulls = get_post_meta($post->ID, 'member_full', false); ?>
+          <?php $link_title = get_post_meta($post ->ID, 'link_title', true); ?>
+          <?php $link_url = get_post_meta($post ->ID, 'link_url', true); ?>
+          
           foreach($member_fulls as $file){
 	    $member_full = wp_get_attachment_url($file);
           } ?>
@@ -48,6 +51,7 @@ Template Name: member
 		$post_id = $post->ID;
 		$link = get_post_meta($post_id,'link',true);
 		?>
+		<a href='<?php echo $link_url >' > <?php echo $link_title ?> </a>
  
 
 		</div>
