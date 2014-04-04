@@ -53,9 +53,9 @@
           <table id="nav_table">
             <tr>
               <td style="padding:0 50px;"><a href="<?php bloginfo('template_url'); ?>/about.php ">アバウト</a></td>
-              <td style="padding:0 30px;">バイオグラフィー</td>
-              <td style="padding:0 58px;">ライフ</td>
-              <td style="padding:0 53px;">メンバー</td>
+              <td style="padding:0 30px;"><a href="<?php bloginfo('template_url'); ?>/bio.php ">バイオグラフィー</a></td>
+              <td style="padding:0 58px;"><a href="<?php bloginfo('template_url'); ?>/life.php ">ライフ</a></td>
+              <td style="padding:0 53px;"><a href="<?php bloginfo('template_url'); ?>/member.php ">メンバー</a></td>
             </tr>
           </table>
         </div><!-- #nav -->
