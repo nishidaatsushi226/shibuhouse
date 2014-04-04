@@ -44,6 +44,17 @@ Template Name: member
               <h1><?php echo $member_pos ?></h1>
               <div class='explain_text'>
 	        <?php echo $member_text ?>
+	        <?php
+		$post_id = $post->ID;
+		$link = get_post_meta($post_id,'link',true);
+		?>
+ 
+		<?php if($link) : ?>
+		<a href="<?php echo $link; ?>"><?php the_title(); ?></a>
+		<?php else : ?>
+		<a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+		<?php endif; ?>
+
 		</div>
 	    </div>
             </div>
