@@ -256,6 +256,10 @@ a {
 	margin:0px auto 0px auto;
 }
 
+#information {
+	margin-bottom:15px;
+}
+
 footer {
 	clear: both;
 	display: block;
