@@ -113,7 +113,7 @@ wp_reset_query();
       <div id="content">
         <div id="what" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <img  style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/whats_shibuhouse.png">
+            <!-- <img  style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/whats_shibuhouse.png"> -->
           <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/what.php' ?>
           </div>
@@ -125,7 +125,7 @@ wp_reset_query();
 
         <div id="bio" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/bio_midashi.png">
+            <!-- <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/bio_midashi.png"> -->
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/bio.php' ?>
             </div>
@@ -140,7 +140,7 @@ wp_reset_query();
 
         <div id="member" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/member_midashi.png">
+            <!-- <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/member_midashi.png"> -->
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/member.php' ?>
             </div>        
@@ -153,7 +153,7 @@ wp_reset_query();
 
         <div id="information" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/information.png">
+            <!-- <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/information.png"> -->
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/information.php' ?>  
             </div>          
