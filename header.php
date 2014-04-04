@@ -52,10 +52,10 @@
         <div id="nav">
           <table id="nav_table">
             <tr>
-              <td style="padding:0 50px;"><a href="./about.php ">アバウト</a></td>
-              <td style="padding:0 30px;"><a href="./bio.php ">バイオグラフィー</a></td>
-              <td style="padding:0 58px;"><a href="./life.php ">ライフ</a></td>
-              <td style="padding:0 53px;"><a href="./member.php ">メンバー</a></td>
+              <td style="padding:0 50px;"><a href="./about">アバウト</a></td>
+              <td style="padding:0 30px;"><a href="./bio">バイオグラフィー</a></td>
+              <td style="padding:0 58px;"><a href="./life">ライフ</a></td>
+              <td style="padding:0 53px;"><a href="./member">メンバー</a></td>
             </tr>
           </table>
         </div><!-- #nav -->
