@@ -56,9 +56,6 @@
       </div>
       <div id="ios_info">080-3310-4083 shibuhouseinfo@gmail.com</div>
       <div id="hot_topics">
-        <div id="hot_topics_pic">
-          <img src="<?php bloginfo('template_url'); ?>/img/search.png"><img id="hot_topics_midashi" src="<?php bloginfo('template_url'); ?>/img/hot_topics.png">
-        </div><!-- hot_topics_pic -->
         <div id="hot_topics_text">
           <ul>
 
