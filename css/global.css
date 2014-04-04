@@ -365,9 +365,10 @@ footer {
 
 #footer_table {
 	display: block;
-	margin: 30px auto 100px auto;
-	width: 1000px;
+	margin: 15px auto 15px auto;
+	width: 1200px;
 }
+
 #copyrights {
 	display: block;
 	margin: 0 auto;
