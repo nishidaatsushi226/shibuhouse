@@ -54,7 +54,7 @@
             <tr>
               <td style="padding:0 50px;"><a href="./about">アバウト</a></td>
               <td style="padding:0 30px;"><a href="./bio">バイオグラフィー</a></td>
-              <td style="padding:0 58px;"><a href="./life">ライフ</a></td>
+              <td style="padding:0 58px;">ライフ</td>
               <td style="padding:0 53px;"><a href="./member">メンバー</a></td>
             </tr>
           </table>
