@@ -95,7 +95,7 @@ if ($date_interval > 0) {
 
 <li class="topics_<?php echo $art_event_media ?>"><sep class="topics_date">
 
-<?php if($date_interval < 7　&& $date_interval > 0) { ?>
+<?php if($date_interval < 7 and $date_interval > 0) { ?>
 [COMING SOON!! <?php echo $date_counter ?>] 
 <?php } else { ?>
 <?php echo $date_counter ?>
