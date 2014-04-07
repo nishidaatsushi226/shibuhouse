@@ -1,8 +1,18 @@
 <div id="ex_image">
-	<img class="inner_ex_image" src='<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_001.jpg'>
-	<img class="inner_ex_image" src='<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_002.jpg'>
-	<img class="inner_ex_image" src='<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_003.jpg'>
+
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+
+<?php $sum_image = $basic_path.'/img/exhibition_sum/100/100_001.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'/img/exhibition_sum/100/100_002.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'/img/exhibition_sum/100/100_003.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
 </div>
+
 <div id="ex_text">
 「Village Project HOUSE 100」<br />
 日程：2012.5.21 - 7.30&nbsp;&nbsp;<br />
