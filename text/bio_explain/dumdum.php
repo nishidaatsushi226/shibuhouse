@@ -1,6 +1,10 @@
+
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/event_sum/dumdum/dumdum_001.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/dumdum/dumdum_002.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/event_sum/dumdum/dumdum_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/dumdum/dumdum_002.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
 </div>
 <div id="ex_text">
 「DUM-DUM PARTY 2013」<br />
