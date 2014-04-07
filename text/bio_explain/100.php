@@ -1,7 +1,7 @@
 <div id="ex_image">
-	<img class="inner_ex_image" src="<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_001.jpg">
-	<img class="inner_ex_image" src="<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_002.jpg">
-	<img class="inner_ex_image" src="<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_003.jpg">
+	<img class="inner_ex_image" src='<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_001.jpg'>
+	<img class="inner_ex_image" src='<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_002.jpg'>
+	<img class="inner_ex_image" src='<?php bloginfo('template_url'); ?>/img/exhibition_sum/100/100_003.jpg'>
 </div>
 <div id="ex_text">
 「Village Project HOUSE 100」<br />
