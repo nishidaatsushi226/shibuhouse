@@ -1,6 +1,10 @@
+
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/media_sum/dommune/dommune_001.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/media_sum/dommune/dommune_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
 </div>
+
 <div id="ex_text">
 『DOMMUNE オフィシャルガイドブック 2』 [DOMMUNE/河出書房新社]<br />
 記事名：「特集&nbsp;&nbsp;2012 年の日本を発電させるカルチャーエネルギーベスト100!!!!!!!! - 渋家というプロジェクトについて -」<br />
