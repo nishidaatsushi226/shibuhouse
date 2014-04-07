@@ -369,6 +369,10 @@ footer {
 	width: 1200px;
 }
 
+#footer_table img {
+	padding:0px 10px;
+}
+
 #copyrights {
 	display: block;
 	margin: 0 auto;
