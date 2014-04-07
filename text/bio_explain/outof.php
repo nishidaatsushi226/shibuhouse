@@ -1,8 +1,38 @@
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/event_sum/outof/outof_001.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/outof/outof_002.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/outof/outof_003.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/outof/outof_004.jpg">
+#画像フォルダへの基本パス
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+
+<?php $sum_image = $basic_path.'img/exhibition_sum/ike/ike_001.jpg'; ?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'img/exhibition_sum/ike/ike_002.jpg'; ?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'img/exhibition_sum/ike/ike_003.jpg'; ?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'img/exhibition_sum/ike/ike_004.jpg'; ?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+</div>
+
+<!-- ここまでをテンプレートとして使う -->
+
+
+
+
+
+
+<div id="ex_image">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/event_sum/outof/outof_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/outof/outof_002.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/outof/outof_003.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/outof/outof_004.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	
 </div>
 <div id="ex_text">
 「OUT OF HOUSE -シャッキシャキのキャベツを添えて-」<br />
