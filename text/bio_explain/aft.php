@@ -1,6 +1,13 @@
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/exhibition_sum/aft/aft_001.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/aft/aft_002.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+
+
+<?php $sum_image = $basic_path.'./img/exhibition_sum/aft/aft_001.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'./img/exhibition_sum/aft/aft_002.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
 </div>
 <div id="ex_text">
 「アートフェア東京」<br />
