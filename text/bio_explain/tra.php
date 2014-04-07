@@ -1,8 +1,14 @@
+
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/exhibition_sum/tra/tra_001.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/tra/tra_002.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/tra/tra_003.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/tra/tra_004.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/exhibition_sum/tra/tra_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/exhibition_sum/tra/tra_002.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/exhibition_sum/tra/tra_003.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/exhibition_sum/tra/tra_004.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
 </div>
 <div id="ex_text">
 「TRANS ARTS TOKYO」<br />
