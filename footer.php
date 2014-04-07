@@ -4,6 +4,8 @@
       <a href="/komekome/"><img src="banner/komekome_banner.png"></a>
       <a href="https://www.youtube.com/watch?v=2M-rA4aO0BY" target="_blank"><img src="banner/dumdum_banner.png"></a>
       <a href="/add_shibumaga/"><img src="banner/shibumaga_banner.png"></a>
+      <a href="http://shibuhouse-image-fes.tumblr.com/" target="_blank"><img src="banner/eizo_banner.png"></a>
+      <a href="https://www.facebook.com/events/508556962586192/" target="_blank"><img src="banner/22banner.png"></a>
         </table>
       </div><!-- #footer_tale -->
       <!--<img src="<?php bloginfo('template_url'); ?>/img/footer_underline.png">-->
