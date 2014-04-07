@@ -129,7 +129,7 @@ wp_reset_query();
             </div>        
 
             <a href="./member" id="picture_member"></a>  
-            <img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_smile.png">
+           <!-- <img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_smile.png">-->
            <!-- <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_member.png">-->
           </div><!-- .inner_midashi -->
         </div><!-- member -->
