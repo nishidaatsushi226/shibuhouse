@@ -113,7 +113,7 @@ wp_reset_query();
             <?php require 'wp-content/themes/shibuhouse/text/bio.php' ?>
             </div>
             <a href="./bio" id="bio_art"></a>
-            <a href=".bio" id="bio_event"></a>
+            <a href="./bio" id="bio_event"></a>
             <a href="./bio" id="bio_media"></a>
             <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/hovers/bio_midashi.png">
             <div style="clear:both;"></div>
