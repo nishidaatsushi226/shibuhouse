@@ -96,19 +96,19 @@ wp_reset_query();
       <div id="content">
         <div id="what" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <!-- <img  style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/whats_shibuhouse.png"> -->
+            <img  style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/whats_shibuhouse.png">
           <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/what.php' ?>
           </div>
           <a style="margin:0 auto; display: block;" href="./about.php" id="midashi_about"></a>
         <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/hatena_midashi.png">
-          <!--<img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/about_midahsi.png">-->
+          <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/about_midahsi.png">
           </div><!-- .inner_midashi -->
         </div><!-- #what -->
 
         <div id="bio" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <!-- <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/bio_midashi.png"> -->
+            <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/bio_midashi.png">
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/bio.php' ?>
             </div>
@@ -117,26 +117,26 @@ wp_reset_query();
             <a href="./bio" id="bio_media"></a>
             <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/hovers/bio_midashi.png">
             <div style="clear:both;"></div>
-            <!-- <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/bio_images.png"> -->
+            <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/bio_images.png">
           </div><!-- .inner_midashi -->
         </div><!-- #bio -->
 
         <div id="member" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <!-- <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/member_midashi.png"> -->
+            <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/member_midashi.png">
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/member.php' ?>
             </div>        
 
             <a href="./member" id="picture_member"></a>  
-            <!--<img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_smile.png">-->
+            <img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_smile.png">
             <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_member.png">
           </div><!-- .inner_midashi -->
         </div><!-- member -->
 
         <div id="information" class="midashi">
           <div style="padding-top:28px; padding-bottom:26px;" class="inner_midashi">
-            <!-- <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/information.png"> -->
+            <img style="margin-bottom:47px" src="<?php bloginfo('template_url'); ?>/img/information.png">
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/information.php' ?>  
             </div>          
