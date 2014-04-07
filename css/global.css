@@ -613,7 +613,7 @@ max-height: 400px;
 	background: url('../img/hovers/hover_smile.png') no-repeat 0 0;
 }
 
-/* #midashi_about {
+#midashi_about {
 	width: 179px;
 	height: 208px;
 	background: url('../img/hovers/default_hatena.png') no-repeat 0 0;
@@ -623,7 +623,7 @@ max-height: 400px;
 	width: 179px;
 	height: 208px;
 	background: url('../img/hovers/hover_hatena.png') no-repeat 0 0;
-} */
+
 
 #bio_art {
 	float: left;
