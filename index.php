@@ -117,7 +117,7 @@ wp_reset_query();
             <a href="./bio" id="bio_media"></a>
             <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/hovers/bio_midashi.png">
             <div style="clear:both;"></div>
-            <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/bio_images.png">
+            <!--<img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/bio_images.png">-->
           </div><!-- .inner_midashi -->
         </div><!-- #bio -->
 
@@ -130,7 +130,7 @@ wp_reset_query();
 
             <a href="./member" id="picture_member"></a>  
             <img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_smile.png">
-            <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_member.png">
+           <!-- <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_member.png">-->
           </div><!-- .inner_midashi -->
         </div><!-- member -->
 
