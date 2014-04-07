@@ -1,3 +1,4 @@
+
 <?php
 /*
 Template Name: member
@@ -22,23 +23,23 @@ Template Name: member
           foreach($member_sums as $file){
 	    $member_sum = wp_get_attachment_url($file);
           } ?>
-           <div class="profile">
+          <div class="profile">
             <img class="small_image" src="<?php echo $member_sum ?>">
-            <a class="profile_name" name="<?php echo $member_name ?>
-            <div class='explain'>
+            <a class="profile_name" name='<?php echo $member_name ?>
+            <div class="explain">
               <h1><?php echo $member_pos ?></h1>
-              <div class='explain_text'>
+              <div class="explain_text">
 	        <?php echo $member_text ?>
 	        <?php
 		$post_id = $post->ID;
-		$link = get_post_meta($post_id,'link',true);
+		$link = get_post_meta($post_id,"link",true);
 		?>
 		</br>
- 		<a href='<?php echo $link_url ?>'><?php echo $link_title; ?></a>
+ 		<a href="<?php echo $link_url ?>"><?php echo $link_title; ?></a>
 		</div>
 	    </div>
             </div>
-            " data-lightbox="roadtrip" href='<?php echo $member_full ?>' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
+            ' data-lightbox="roadtrip" href='<?php echo $member_full ?>' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
             <div>
               <p class="full_name"><?php echo $member_name ?></p>
             </div>
