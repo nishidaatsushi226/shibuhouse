@@ -1,8 +1,14 @@
+
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/media_sum/asahi_j/asahi_j_001.jpg">
-	<img class="inner_ex_image" src="./img/media_sum/asahi_j/asahi_j_002.jpg">
-	<img class="inner_ex_image" src="./img/media_sum/asahi_j/asahi_j_003.jpg">
-	<img class="inner_ex_image" src="./img/media_sum/asahi_j/asahi_j_004.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/media_sum/asahi_j/asahi_j_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/media_sum/asahi_j/asahi_j_002.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/media_sum/asahi_j/asahi_j_003.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/media_sum/asahi_j/asahi_j_004.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
 </div>
 <div id="ex_text">
 『朝日ジャーナル』<br />
