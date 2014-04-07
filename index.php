@@ -101,7 +101,7 @@ wp_reset_query();
             <?php require 'wp-content/themes/shibuhouse/text/what.php' ?>
           </div>
           <a style="margin:0 auto; display: block;" href="./about.php" id="midashi_about"></a>
-          <img style="margin:0 auto; display: block;" src="./img/hatena_midashi.png">
+        <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/hatena_midashi.png">
           <!--<img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/about_midahsi.png">-->
           </div><!-- .inner_midashi -->
         </div><!-- #what -->
