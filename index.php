@@ -112,9 +112,9 @@ wp_reset_query();
             <div class="midashi_text">
             <?php require 'wp-content/themes/shibuhouse/text/bio.php' ?>
             </div>
-            <a href="./bio.php#ac_art" id="bio_art"></a>
-            <a href="./bio.php#ac_media" id="bio_event"></a>
-            <a href="./bio.php#ac_event" id="bio_media"></a>
+            <a href="./bio" id="bio_art"></a>
+            <a href="./bio" id="bio_event"></a>
+            <a href="./bio" id="bio_media"></a>
             <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/hovers/bio_midashi.png">
             <div style="clear:both;"></div>
             <!-- <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/bio_images.png"> -->
@@ -128,7 +128,7 @@ wp_reset_query();
             <?php require 'wp-content/themes/shibuhouse/text/member.php' ?>
             </div>        
 
-            <a href="./member.php" id="picture_member"></a>  
+            <a href="./member" id="picture_member"></a>  
             <!--<img style="margin:0 auto 30px auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_smile.png">-->
             <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/midashi_member.png">
           </div><!-- .inner_midashi -->
