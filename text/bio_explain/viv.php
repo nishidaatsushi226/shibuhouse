@@ -1,8 +1,13 @@
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/exhibition_sum/viv/viv_001.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/viv/viv_002.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/viv/viv_003.jpg">
-	<img class="inner_ex_image" src="./img/exhibition_sum/viv/viv_004.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/exhibition_sum/viv/viv_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/exhibition_sum/viv/viv_002.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/exhibition_sum/viv/viv_003.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/exhibition_sum/viv/viv_004.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
 </div>
 <div id="ex_text">
 「VIVA☆校」<br />
