@@ -1,6 +1,14 @@
+
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/event_sum/vivivi/vivivi_001.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/vivivi/vivivi_002.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+
+<?php $sum_image = $basic_path.'/img/event_sum/vivivi/vivivi_001.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+<?php $sum_image = $basic_path.'/img/event_sum/vivivi/vivivi_002.jpg'?>
+<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+
+
 </div>
 <div id="ex_text">
 「VIVIVI」<br />
