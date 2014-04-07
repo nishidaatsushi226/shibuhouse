@@ -1,8 +1,13 @@
 <div id="ex_image">
-	<img class="inner_ex_image" src="./img/event_sum/yami_1/yami_1_001.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/yami_1/yami_1_002.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/yami_1/yami_1_003.jpg">
-	<img class="inner_ex_image" src="./img/event_sum/yami_1/yami_1_004.jpg">
+<?php $basic_path = "wp-content/themes/shibuhouse/"; ?>
+	<?php $sum_image = $basic_path.'img/event_sum/yami_1/yami_1_001.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/yami_1/yami_1_002.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/yami_1/yami_1_003.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
+	<?php $sum_image = $basic_path.'img/event_sum/yami_1/yami_1_004.jpg'?>
+	<img class="inner_ex_image" src="<?php echo $sum_image ?>">
 </div>
 <div id="ex_text">
 「インターネットヤミ市」<br />
