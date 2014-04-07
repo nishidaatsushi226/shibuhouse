@@ -3,6 +3,7 @@
 Template Name: about
 */
 ?>
+<?php get_header(); ?>
         <div id="content">
         <div id="bio" class="midashi">
           <div style="padding-top:28px; padding-bottom:60px;" class="inner_midashi">

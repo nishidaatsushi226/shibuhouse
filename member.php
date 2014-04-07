@@ -3,6 +3,7 @@
 Template Name: member
 */
 ?>
+<?php get_header(); ?>
       <div id="member_profile">
         <div id="inner_member_profile">
         <?php query_posts('category_name=member');

@@ -1,3 +1,4 @@
+<?php get_header(); ?>
             <div id="slide">
         <div class="flexslider">
           <ul class="slides">
