@@ -82,13 +82,13 @@ $now = strtotime('now');
 $date_interval = round(($unix_expiration - $now) / (60*60*24));
  
 if ($date_interval > 0) {
-    $date_counter = '['.$date_interval.' DAYS LATER!]';
+    #$date_counter = '['.$date_interval.' DAYS LATER!]';
 } elseif ($date_interval == 0) {
-    $date_counter = '（TODAY!）';
+    #$date_counter = '（TODAY!）';
 } elseif ($date_interval < 1) {
-    $date_counter = '（ '.-$date_interval.' DAYS AGO!）';
+    #$date_counter = '（ '.-$date_interval.' DAYS AGO!）';
 } else {
-    $date_counter = '(エラー：日数計算に失敗)';
+    #$date_counter = '(エラー：日数計算に失敗)';
 }
  
 ?>
