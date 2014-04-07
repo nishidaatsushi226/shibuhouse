@@ -26,8 +26,6 @@ Template Name: member
           } ?>
           <div class="profile">
             <img class="small_image" src="<?php echo $member_sum ?>">
-            <a class="profile_name" name=          <div class="profile">
-            <img class="small_image" src="<?php echo $member_sum ?>">
             <a class="profile_name" name="<?php echo $member_name ?>
             <div class='explain'>
               <h1><?php echo $member_pos ?></h1>
@@ -43,11 +41,6 @@ Template Name: member
 	    </div>
             </div>
             " data-lightbox="roadtrip" href='<?php echo $member_full ?>' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
-            <div>
-              <p class="full_name"><?php echo $member_name ?></p>
-            </div>
-            </a>
-          </div> data-lightbox="roadtrip" href='<?php echo $member_full ?>' style="display:block; width:165px; height:247px; position:absolute; top:0px; left:0px;">
             <div>
               <p class="full_name"><?php echo $member_name ?></p>
             </div>
