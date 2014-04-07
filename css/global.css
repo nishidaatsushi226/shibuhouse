@@ -370,7 +370,7 @@ footer {
 }
 
 #footer_table img {
-	padding:0px 10px;
+	padding:0px 1px;
 }
 
 #copyrights {
@@ -621,6 +621,8 @@ max-height: 400px;
 	width: 179px;
 	height: 208px;
 	background: url('../img/hovers/default_hatena.png') no-repeat 0 0;
+	display:block;
+	margin:0 auto;
 } 
 
 #midashi_about:hover {
