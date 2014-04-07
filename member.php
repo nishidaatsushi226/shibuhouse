@@ -1,4 +1,3 @@
-
 <?php
 /*
 Template Name: member
@@ -7,7 +6,7 @@ Template Name: member
 <?php get_header(); ?>
       <div id="member_profile">
         <div id="inner_member_profile">
-        <?php query_posts('category_name=member');
+        <?php query_posts('category_name=member&orderby=rand');
           if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <?php $member_name = get_post_meta($post -> ID, 'member_name', true); ?>
           <?php $member_pos = get_post_meta($post -> ID, 'member_pos', true); ?>
