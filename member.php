@@ -84,12 +84,15 @@ if (strpos($agent, 'iPhone') !== false){
           <?php $member_pos = get_post_meta($post -> ID, 'member_pos', true); ?>
           <?php $member_text = get_post_meta($post -> ID, 'member_text', true); ?>
           <?php $member_fulls = get_post_meta($post->ID, 'member_full', false); ?>
-          <?php $link_title = get_post_meta($post ->ID, 'link_title01', true); ?>
-          <?php $link_url = get_post_meta($post ->ID, 'link_url01', true); ?>
-          <?php $link_title = get_post_meta($post ->ID, 'link_title02', true); ?>
-          <?php $link_url = get_post_meta($post ->ID, 'link_url02', true); ?>
-          <?php $link_title = get_post_meta($post ->ID, 'link_title03', true); ?>
-          <?php $link_url = get_post_meta($post ->ID, 'link_url03', true); ?>
+          
+          <?php $link_title_01 = get_post_meta($post ->ID, 'link_title01', true); ?>
+          <?php $link_url_01 = get_post_meta($post ->ID, 'link_url01', true); ?>
+          
+          <?php $link_title_02 = get_post_meta($post ->ID, 'link_title02', true); ?>
+          <?php $link_url_02 = get_post_meta($post ->ID, 'link_url02', true); ?>
+          
+          <?php $link_title_03 = get_post_meta($post ->ID, 'link_title03', true); ?>
+          <?php $link_url_03 = get_post_meta($post ->ID, 'link_url03', true); ?>
           
           <?php foreach($member_fulls as $file){
 	    $member_full = wp_get_attachment_url($file);
@@ -111,11 +114,11 @@ if (strpos($agent, 'iPhone') !== false){
 		$link = get_post_meta($post_id,'link',true);
 		?>
 		</br>
- 		<a href='<?php echo $link_url01 ?>'><?php echo $link_title01; ?></a>
+ 		<a href='<?php echo $link_url_01 ?>'><?php echo $link_title_01; ?></a>
  		&nbsp;
- 		<a href='<?php echo $link_url02 ?>'><?php echo $link_title02; ?></a>
+ 		<a href='<?php echo $link_url_02 ?>'><?php echo $link_title_02; ?></a>
  		&nbsp;
- 		<a href='<?php echo $link_url03 ?>'><?php echo $link_title03; ?></a>
+ 		<a href='<?php echo $link_url_03 ?>'><?php echo $link_title_03; ?></a>
 		</div>
 	    </div>
             </div>
