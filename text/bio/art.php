@@ -2,10 +2,17 @@
 
 <?php $filepath = 'wp-content/themes/shibuhouse'; ?>
 <table>
+
+<tr>
+<th>2014.04</th>
+<td style="cursor: pointer" onclick='dynamic_ex_load("http://google.com");'><div id="bio_background">「Sample Exhibition」/Sample Place</div></td>
+</tr>
+
 <tr>
 <th>2013.07</th>
 <td style="cursor: pointer" onclick='dynamic_ex_load("<?php echo $filepath; ?>/text/bio_explain/usn.php");'><div id="bio_background">「THE NEW BLACK」/Ultra Super New</div></td>
 </tr>
+
 <tr>
 <th>2013.04</th>
 <td style="cursor: pointer" onclick='dynamic_ex_load("<?php bloginfo('template_url'); ?>/text/bio_explain/ike.php");'><div id="bio_background">「渋家 イケる気がする展」/HIGURE 17-15 cas</div></td>
