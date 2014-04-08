@@ -1,16 +1,16 @@
 <table>
 <tr>
 <th>2013.11</th>
-<td style="cursor: pointer" onclick='dynamic_ex_load("./text/bio_explain/jirenma.php");'><div id="bio_background">「ニッポンのジレンマ」[NHK]/「新ＴＯＫＹＯ論」</div></td>
+<td style="cursor: pointer" onclick='dynamic_ex_load("<?php bloginfo('template_url'); ?>/text/bio_explain/jirenma.php");'><div id="bio_background">「ニッポンのジレンマ」[NHK]/「新ＴＯＫＹＯ論」</div></td>
 </tr>
 
 <tr>
 <th>2013.10</th>
-<td style="cursor: pointer" onclick='dynamic_ex_load("./text/bio_explain/ropponngi_2013.php");'><div id="bio_background">『六本木クロッシング2013展 アウト・オブ・ダウト』[森美術館]</div></td>
+<td style="cursor: pointer" onclick='dynamic_ex_load("<?php bloginfo('template_url'); ?>/text/bio_explain/ropponngi_2013.php");'><div id="bio_background">『六本木クロッシング2013展 アウト・オブ・ダウト』[森美術館]</div></td>
 </tr>
 <tr>
 <th>2013.06</th>
-<td style="cursor: pointer" onclick='dynamic_ex_load("./text/bio_explain/kamidane.php");'><div id="bio_background">「もはや神タネ!」[フジテレビ]</div></td>
+<td style="cursor: pointer" onclick='dynamic_ex_load("<?php bloginfo('template_url'); ?>/text/bio_explain/kamidane.php");'><div id="bio_background">「もはや神タネ!」[フジテレビ]</div></td>
 </tr>
 <tr>
 <th>2013.03</th>
