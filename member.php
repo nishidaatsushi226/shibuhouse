@@ -113,7 +113,7 @@ if (strpos($agent, 'iPhone') !== false){
 		$post_id = $post->ID;
 		$link = get_post_meta($post_id,'link',true);
 		?>
-		</br>
+		</br> </br>
  		<a href='<?php echo $link_url_01 ?>'><?php echo $link_title_01; ?></a>
  		&nbsp;
  		<a href='<?php echo $link_url_02 ?>'><?php echo $link_title_02; ?></a>
