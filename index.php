@@ -48,6 +48,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php $hottopics_text = get_post_meta($post -> ID, 'hottopics_text', true); ?>
 <?php $hottopics_link = get_post_meta($post -> ID, 'hottopics_link', true); ?>
 <?php $hottopics_date = get_post_meta($post -> ID, 'hottopics_date', true); ?>
+<?php $hottopics_date_stop = get_post_meta($post -> ID, 'hottopics_date_stop', true); ?>
 <?php $art_event_media = get_post_meta($post -> ID, 'art_event_media', true); ?>
 
 <?php
@@ -55,6 +56,13 @@ $date = $hottopics_date;
 $week = array("日", "月", "火", "水", "木", "金", "土");
 $time = strtotime($date);
 $w = date("w", $time);
+?>
+
+<?php
+$date_stop = $hottopics_date_stop;
+$week_stop = array("日", "月", "火", "水", "木", "金", "土");
+$time_stop = strtotime($date_stop);
+$w_stop = date("w", $time_stop);
 ?>
 
 <?php
@@ -77,13 +85,21 @@ if ($date_interval > 0) {
 ?>
 
 <li class="topics_<?php echo $art_event_media ?>"><sep class="topics_date">
-
 <?php if($date_interval <= 7 and $date_interval >= 0) { ?>
 [COMING SOON!! <?php echo $date_counter ?>] 
 <?php } else { ?>
 <?php echo $date_counter ?>
 <?php } ?>
-</sep><img class="arrow" src="<?php bloginfo('template_url'); ?>/img/arrow.png"><sep class="topics_date">[<?php echo $art_event_media ?>] <a href="<?php echo $hottopics_link ?>" target="_blank"><?php echo $hottopics_date ?>（<?php echo $week[$w] ?>）<?php echo $hottopics_text ?></a></sep></li>
+</sep>
+<img class="arrow" src="<?php bloginfo('template_url'); ?>/img/arrow.png">
+<sep class="topics_date">[<?php echo $art_event_media ?>] 
+<a href="<?php echo $hottopics_link ?>" target="_blank">
+<?php echo $hottopics_date ?>（<?php echo $week[$w] ?>）
+<?php if($hottopics_date_stop != "") {
+echo $hottopics_date_stop
+} ?>
+<?php echo $hottopics_text ?>
+</a></sep></li>
 <?php
 endwhile; else:
 // No posts.
