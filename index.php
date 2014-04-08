@@ -95,7 +95,7 @@ if ($date_interval > 0) {
 <sep class="topics_date">[<?php echo $art_event_media ?>] 
 <a href="<?php echo $hottopics_link ?>" target="_blank">
 <?php echo $hottopics_date ?>（<?php echo $week[$w] ?>）
-<?php if($hottopics_date_stop != "") {
+<?php if($hottopics_date_stop !== "") {
 echo $hottopics_date_stop
 } ?>
 <?php echo $hottopics_text ?>
