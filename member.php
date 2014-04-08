@@ -19,8 +19,8 @@ if (strpos($agent, 'iPhone') !== false){
 ?>
 
 <?php if($browser == 'iphone'){ ?>
-        <div id="iphone_nav" class="midashi">
-	<img src="http://shibuhouse.outernet.biz/wp-content/themes/shibuhouse/img/logo.png" width="95%" height="300px">
+        <div id="iphone_nav" class="midashi" style="background-color:transparent">
+	<a href="<?php site_url(); ?>"><img src="http://shibuhouse.outernet.biz/wp-content/themes/shibuhouse/img/logo.png" width="95%" height="300px"></a>
 	<a href="<?php site_url(); ?>/about">
 	  <div id="iphone_about" class="iphone_parts">
  	      <!-- あばうとだよー -->
