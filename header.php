@@ -5,13 +5,27 @@
     <title>渋家 || SHIBUHOUSE</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link href="<?php bloginfo('stylesheet_url') ?>" rel='stylesheet' type='text/css'>  
     <!-- javascript -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.js"></script>
+    <?php
+       $agent = $_SERVER['HTTP_USER_AGENT'];
+       if (strpos($agent, 'iPhone') !== false){
+         $browser = 'iphone';
+       }else if (strpos($agent, 'Android') !== false){
+         $browser = 'Android';
+       } 
+    ?>
+    <?php if($browser == 'iphone'){ ?>
+      <link href="./wp-content/themes/shibuhouse/iphone_style.css" rel='stylesheet' type='text/css'>  
+    <?php }else if($browser == 'Android'){ ?>
+      <link href="<?php bloginfo('stylesheet_url') ?>" rel='stylesheet' type='text/css'>  
+    <?php }else{ ?>
+      <link href="<?php bloginfo('stylesheet_url') ?>" rel='stylesheet' type='text/css'>  
+    <?php } ?>
   </head>
   <body>
-    <div id="wrap">
 
+    <div id="wrap">
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-15089697-1']);

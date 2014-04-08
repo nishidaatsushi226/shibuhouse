@@ -735,3 +735,7 @@ margin:25px;
 #iphone_member {
   margin:10px 30px 10px 40px;
 }
+
+.lb-image {
+transform: scale(0.5,0.5);
+}
