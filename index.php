@@ -43,7 +43,7 @@
           <ul>
 
 <?php
-query_posts('showposts=10&category_name=hottopics');
+query_posts('showposts=20&category_name=hottopics');
 if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php $hottopics_text = get_post_meta($post -> ID, 'hottopics_text', true); ?>
 <?php $hottopics_link = get_post_meta($post -> ID, 'hottopics_link', true); ?>
