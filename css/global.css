@@ -201,7 +201,7 @@ a {
 #hot_topics_text {
 	margin-left:-10px;
 	overflow-y: scroll;
-	height: 300px;
+	height: 218px;
 	border-radius: 5px;        /* CSS3草案 */
 	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
 	-moz-border-radius: 5px;   /* Firefox用 */ 
