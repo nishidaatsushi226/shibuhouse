@@ -176,7 +176,6 @@ if (strpos($agent, 'iPhone') !== false){
             <?php require 'wp-content/themes/shibuhouse/text/what.php' ?>
           </div>
           <a href="./about" id="midashi_about">
-          <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/about/about_hatena.png">
           </a>
           <img style="margin:0 auto; display: block;" src="<?php bloginfo('template_url'); ?>/img/about_midahsi.png">
           </div><!-- .inner_midashi -->
