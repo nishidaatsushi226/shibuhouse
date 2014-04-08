@@ -4,6 +4,80 @@ Template Name: bio
 */
 ?>
       <?php get_header(); ?>
+
+<?php
+$agent = $_SERVER['HTTP_USER_AGENT'];
+if (strpos($agent, 'iPhone') !== false){
+   $browser = 'iphone';
+}else if (strpos($agent, 'Android') !== false){
+   $browser = 'Android';
+}
+?>
+
+<?php if($browser == 'iphone'){ ?>
+        <div id="iphone_nav" class="midashi">
+	<img src="http://shibuhouse.outernet.biz/wp-content/themes/shibuhouse/img/logo.png" width="95%" height="300px">
+	<a href="<?php site_url(); ?>/about">
+	  <div id="iphone_about" class="iphone_parts">
+ 	      <!-- あばうとだよー -->
+	          <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_about.png">
+		    </div>
+		    </a>	
+		    <a href="<?php site_url(); ?>/bio">
+		      <div id="iphone_bio" class="iphone_parts">
+		          <!-- ばいおだよ -->
+			      <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_bio.png">
+			        </div>
+ 				</a>
+				<a href="<?php site_url(); ?>/life">
+				  <div id="iphone_life" class="iphone_parts">
+ 				      <!-- らいふだよー工事中だyとー -->
+            <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_life.png">
+	      </div>
+	      </a>
+	      <a href="<?php site_url(); ?>/member">
+	        <div id="iphone_member" class="iphone_parts">
+		    <!-- メンバーだよ＾　-->
+            <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_member.png">
+	      </div>
+	        <div style="clear:both;">
+		  </div>
+		  </div>
+		  </a>
+<?php }else if($browser == 'Android'){ ?>
+        <div id="iphone_nav" class="midashi">
+	<a href="<?php site_url(); ?>/about">
+	  <div id="iphone_about" class="iphone_parts">
+ 	      <!-- あばうとだよー -->
+	          <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_about.png">
+		    </div>
+		    </a>	
+		    <a href="<?php site_url(); ?>/bio">
+		      <div id="iphone_bio" class="iphone_parts">
+		          <!-- ばいおだよ -->
+			      <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_bio.png">
+			        </div>
+ 				</a>
+				<a href="<?php site_url(); ?>/life">
+				  <div id="iphone_life" class="iphone_parts">
+ 				      <!-- らいふだよー工事中だyとー -->
+            <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_life.png">
+	      </div>
+	      </a>
+	      <a href="<?php site_url(); ?>/member">
+	        <div id="iphone_member" class="iphone_parts">
+		    <!-- メンバーだよ＾　-->
+            <img src="<?php bloginfo('template_url'); ?>/img/iphone/iphone_member.png">
+	      </div>
+	        <div style="clear:both;">
+		  </div>
+		  </div>
+		  </a>
+
+
+<?php }else{ ?>
+<?php } ?>
+
       <div id="biography">
         <div id="inner_bio">
           <div id="cv">

@@ -700,9 +700,9 @@ max-height: 400px;
 
 #iphone_nav {
 background-color:rgb(191, 191, 191);
-border-radius: 0px;
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius:10px;
 box-shadow: 0px 0px 0px #FFF;
 }
 #iphone_nav img{
@@ -738,4 +738,16 @@ margin:25px;
 
 .lb-image {
 transform: scale(0.5,0.5);
+}
+
+#header {
+  display:none;
+}
+
+#logo {
+  display:none;
+}
+
+#contact {
+  display:none;
 }
